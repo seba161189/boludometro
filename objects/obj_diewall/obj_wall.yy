@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_car",
-    "path": "sprites/spr_car/spr_car.yy",
+    "name": "spr_wall",
+    "path": "sprites/spr_wall/spr_wall.yy",
   },
   "solid": true,
   "visible": true,
@@ -14,20 +14,18 @@
   "physicsGroup": 1,
   "physicsDensity": 0.0,
   "physicsRestitution": 1.0,
-  "physicsLinearDamping": 0.0,
-  "physicsAngularDamping": 0.0,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
   "physicsFriction": 0.0,
   "physicsStartAwake": true,
-  "physicsKinematic": false,
+  "physicsKinematic": true,
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
-    {"x":180.0,"y":0.0,},
-    {"x":180.0,"y":246.0,},
-    {"x":0.0,"y":246.0,},
+    {"x":32.0,"y":0.0,},
+    {"x":32.0,"y":32.0,},
+    {"x":0.0,"y":32.0,},
   ],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -35,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_car",
+  "name": "obj_wall",
   "tags": [],
   "resourceType": "GMObject",
 }
